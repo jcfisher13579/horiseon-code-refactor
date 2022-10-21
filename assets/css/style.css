@@ -8,6 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
+/* References the anchors used by the links in the header*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* All paragraphs using 'p' */
+p {
+    font-size: 16px;
+}
+
+/* Contains the parameters for the header and the different neccessities for the different parts of the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,9 +30,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -32,24 +41,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Contains the paramaters for the big image in the forefront of the page */
 .main-image {
     height: 800px;
     width: 100%;
@@ -59,6 +57,7 @@ p {
     background-position: center;
 }
 
+/* The float left and float right allow the different boxes to float left or right by making the class either */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +68,32 @@ p {
     margin-left: 25px;
 }
 
+/* Content & main block refer to the big boxes that contain the main information in the center of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.main-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-block img {
+    max-height: 200px;
+}
+
+.main-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Benefits are to the right of the page and smaller than the main information in 'content'. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,24 +121,7 @@ p {
     max-width: 150px;
 }
 
-.main-block {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-block img {
-    max-height: 200px;
-}
-
-.main-block h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer contains a wholesome message and the copyright of the company.  */
 .footer {
     padding: 30px;
     clear: both;
